@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(17, 24, 39);
+}
+.grid-container{
+    display: flex;
+    width: 320px;
+    height: 320px;
+    margin: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: aliceblue;
+    
+}
+
+.grid{
+    height: 16px;
+    width: 16px;
+    border: 2px solid ;
+}
