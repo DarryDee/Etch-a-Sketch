@@ -1,12 +1,14 @@
 body {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 100vh;
-    background-color: rgb(17, 24, 39);
+    background-color: rgb(53, 53, 53);
 }
 .grid-container{
-    width: 320px;
-    height: 320px;
-    margin: auto; 
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -14,8 +16,32 @@ body {
     
 }
 
-div:not(.grid-container){
-    height: 16px;
-    width: 16px;
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(96, 102, 116);
+    padding: 300px;
+    border-radius: 10px;
+}
+.text{
+    font-weight: 800;
+    font-size: xx-large;
+    width: 200px;
+}
+
+div:not(.grid-container,.text,.button-container){
+    height: 27.25px;
+    width: 27.25px;
     border: 2px solid;
+}
+.button-container{
+    margin-left: -200px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
 }
