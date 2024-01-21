@@ -4,7 +4,6 @@ body {
     background-color: rgb(17, 24, 39);
 }
 .grid-container{
-    display: flex;
     width: 320px;
     height: 320px;
     margin: auto; 
@@ -15,8 +14,8 @@ body {
     
 }
 
-.grid{
+div:not(.grid-container){
     height: 16px;
     width: 16px;
-    border: 2px solid ;
+    border: 2px solid;
 }
