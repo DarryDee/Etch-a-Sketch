@@ -13,7 +13,6 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     background-color: aliceblue;
-    
 }
 
 .container{
@@ -24,7 +23,11 @@ body {
     background-color: rgb(96, 102, 116);
     padding: 300px;
     border-radius: 10px;
+    height: 27.25px;
+    width: 27.25px;
 }
+
+
 .text{
     font-weight: 800;
     font-size: xx-large;
@@ -32,8 +35,6 @@ body {
 }
 
 div:not(.grid-container,.text,.button-container){
-    height: 27.25px;
-    width: 27.25px;
     border: 2px solid;
 }
 .button-container{
