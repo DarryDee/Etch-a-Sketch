@@ -21,10 +21,22 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(96, 102, 116);
+    margin: 20px;
     padding: 300px;
     border-radius: 10px;
-    height: 27.25px;
-    width: 27.25px;
+    height: 1px;
+    width: 1px;
+}
+
+.setting-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0px;
+    background-color: rgb(96, 102, 116);
 }
 
 
@@ -37,12 +49,9 @@ body {
 div:not(.grid-container,.text,.button-container){
     border: 2px solid;
 }
-.button-container{
-    margin-left: -200px;
-}
 button{
     height: 50px;
-    width: 100px;
+    width: 150px;
     border-radius: 10px;
-    margin-top: 10px;
+
 }
